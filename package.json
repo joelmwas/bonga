@@ -1,7 +1,11 @@
 {
   "name": "bonga",
   "version": "0.0.1",
-  "description": "simple chat app",
+  "description": "simple web chat",
+  "main": "index.js",
+  "scripts": {
+	"start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.10.1",
     "socket.io": "^1.2.0"
